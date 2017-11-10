@@ -9,4 +9,6 @@ public interface BoardDAO{
 	void deleteBoard(String board) throws SQLException;
 	
 	void updateBoard(String board) throws SQLException;
+	
+	List<String> getBoardList() throws SQLException;
 }
