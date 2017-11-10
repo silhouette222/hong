@@ -18,5 +18,11 @@ public class BoardDAOImpl implements BoardDAO {
 		
 	}
 
+	@Override
+	public void updateBoard(String board) throws SQLException {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 }
